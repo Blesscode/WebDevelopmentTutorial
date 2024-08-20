@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-famliy: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+}
+/* .nav {
+  background-color: red;
+  margin:20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap: wrap;
+} */
+.nav {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  padding: 8px 40px;
+  /* border-radius:15px ; */
+
+}
+#nav-part1 {
+  /* list-style-type: none; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap:5px; */
+
+  /* font-size:15px;
+  border:2px solid black ;
+  padding:2px;
+  border-radius:15px;
+  margin:10px; */
+}
+#nav-part1 h1{
+  font-size:15px;
+  border:1px solid black ;
+  padding:5px;
+  border-radius:15px;
+  font-weight:700; //no effect
+}
+#nav-part1 i{
+  font-size:15px;
+  border:1px solid black ;
+  padding:5px;
+  border-radius:15px;
+  font-weight:600;
+}
+#nav-part2{
+  text-transform:uppercase;
+  font-size;20px;
+  font-weight:100;//no effect
+}
+#nav-part3 button{
+  padding:5px;
+  border-radius:15px;
+  border-width: 1px;
+  font-weight:600;
+}
+#orange{
+  background-color:#FFA500;
+}
+#main>h1{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+
+  /*one line*/
+  width:100%;
+  text-align:center;
+  /* border:2px solid black; */
+}
+img{
+  height:200px;
+  width:150px;
+  object-fit:cover;
+  object-position:top;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+#img1{
+  /* ratate:-10deg; ->overides above transform*/
+  transform:translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+  /* ratate:-10deg; ->overides above transform*/
+  transform:translate(-50%,-50%) rotate(-20deg);
+}
+
+/* #img3{
+  /* ratate:-10deg; ->overides above transform*/
+ /* transform:translate(-50%,-50%) rotate(-10deg);
+}*/
+
+#img4{
+  /* ratate:-10deg; ->overides above transform*/
+  transform:translate(-50%,-50%) rotate(-40deg);
+}
+h2{
+  position:absolute;
+  bottom:5px;
+  left:5px;
+  font-size:10px;
+}
+.icons {
+  position:absolute;
+  bottom:30px;
+  right:2px;px;
+}
+.rights{
+  position:absolute;
+  bottom:5px;
+  right:2px;px;
+ font-size:5px;
+
+}
+
