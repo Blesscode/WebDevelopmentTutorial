@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 45%;
+  background-color: #cf77;
+}
+.nav {
+  width: 100%;
+  /* //height: fit-content; */
+  height: 2%;
+  /* //background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: fixed;
+}
+.intro {
+  width: 100%;
+  height: 45%;
+  /* //  background: green; */
+  padding: 20px;
+}
+.Menu {
+  height: 20%;
+}
+.name {
+  font-size: 20px;
+  height: 45%;
+  line-height: 30px;
+}
+#header-button {
+  border-radius: 50px;
+  background: black;
+  color: white;
+  padding: 5px;
+  margin: 6px;
+}
+
+#special {
+  background: white;
+  width: fit-content;
+}
+.head-fotter {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+#bottom-button {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.header-img {
+  width: 100%;
+}
+#my-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  /* object-position: top; */
+}
+
+.mainbody {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: azure;
+}
+
+.desc {
+  background: green;
+  /* display: inline-block; */
+  width: 50%;
+  height: 100%;
+  overflow-wrap: break-word;
+  /* width: fit-content; */
+}
+.me {
+  /* width:50%; */
+  font-size: 36px;
+  line-height: 83px;
+  font-weight: 100; /* //nono effect */
+  letter-spacing: -3px;
+  padding: 20px;
+}
+
+.rights {
+  /* word-break: break-all; */
+  /* background: green; */
+  overflow-wrap: break-word;
+  font-size: 26px;
+}
+.socials {
+  /* background: blue; */
+  /* // display: inline-block; no use */
+  width: 40%;
+  max-height: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+  border-left: 2px solid black;
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.work {
+  border: 5px solid red;
+  height: 45%;
+  width: 100%;
+  /* border-top: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 60px;
+}
+.work1 {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  border-right: 2px solid black;
+  display: flex;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+.work1 h3 {
+  font-size: 33px;
+}
+.work1 i {
+  font-size: 30px;
+}
+.work2 {
+  width: 70%;
+  height: 100%;
+  background-color: pink;
+}
+.up {
+  background-color: red;
+}

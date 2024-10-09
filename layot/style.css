@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  paddin: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+.frist {
+  display: inline-block;
+  background: blue;
+  border: 2px solid blue;
+  width: 50%;
+  height: 40%;
+}
+.second {
+  display: inline-block;
+  background: green;
+  border: 2px solid green;
+  width: 50%;
+  height: 40%;
+}
